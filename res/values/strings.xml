@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ScinCare</string>
+    <string name="scincare_routine">ScinCare Routine</string>
+    <string name="hello_user">Hello Tuba Eraslan</string>
+    <string name="morning_routine">Morning Routine</string>
+    <string name="daily_routine">Daily Routine</string>
+
+    <!-- Button Texts -->
+    <string name="learn_more">Learn More</string>
+    <string name="exit">Exit</string>
+
+    <!-- Category and Product Info -->
+    <string name="sunscreen">SunScreen</string>
+    <string name="cleanser">Cleanser</string>
+    <string name="toner">Toner</string>
+
+    <string name="product_name_sunscreen">Solaris Zinc Daily SunScreen</string>
+    <string name="product_name_cleanser">Lumia Niacinamide Gentle Cleanser</string>
+    <string name="product_name_toner">PurGlow Hyaluronic Bright Toner</string>
+
+    <string name="product_info_sunscreen">Skin health: 85%</string>
+    <string name="product_info_cleanser">Skin health: 78%</string>
+    <string name="product_info_toner">Skin health: 72%</string>
+
+    <!-- Other Texts -->
+    <string name="see_your_skin_progress">See your healthy skin progress in one application</string>
+    <string name="step_count">0/4 Step</string>
+
+    <!-- Days -->
+    <string name="monday">Mon</string>
+    <string name="tuesday">Tue</string>
+    <string name="wednesday">Wed</string>
+    <string name="thursday">Thu</string>
+    <string name="friday">Fri</string>
+</resources>
