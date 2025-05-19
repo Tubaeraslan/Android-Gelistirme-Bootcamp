@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout3"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".uı.fragment.KayitFragment">
+
+    <!-- Başlık Girişi -->
+    <EditText
+        android:id="@+id/etTodoBaslik"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/black"
+        android:hint="Başlık"
+        android:inputType="textCapSentences"
+        android:textColorHint="#888"
+        android:textSize="24sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <!-- Açıklama Girişi -->
+    <EditText
+        android:id="@+id/etTodoAciklama"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:hint="Açıklama"
+        android:inputType="textMultiLine"
+        android:minLines="3"
+        android:gravity="top"
+        android:backgroundTint="@color/black"
+        android:textColorHint="#888"
+        android:layout_marginTop="16dp"
+        app:layout_constraintTop_toBottomOf="@id/etTodoBaslik"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <!-- Tarih Girişi -->
+    <EditText
+        android:id="@+id/etTodoTarih"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="@color/black"
+        android:hint="Tarih (örn: 2025-05-17)"
+        android:inputType="date"
+        android:textColorHint="#888"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/etTodoAciklama" />
+
+    <!-- Kaydet Butonu -->
+    <Button
+        android:id="@+id/btnTodoKaydet"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Kaydet"
+        android:textAllCaps="false"
+        android:layout_marginTop="32dp"
+        app:layout_constraintTop_toBottomOf="@id/etTodoTarih"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
